@@ -59,3 +59,9 @@
   cursor: pointer;
   box-shadow: inset rgb(53, 53, 53) 0px 0px 20px;
 }
+
+/* Profile */
+.profile {
+  max-height: 400px;
+  max-width: 400px;
+}
