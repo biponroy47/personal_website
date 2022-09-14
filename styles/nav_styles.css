@@ -33,9 +33,29 @@
 
 .hero-text h1 {
   font-weight: bold;
-  font-size: 75px;
+  font-size: 100px;
+  margin-top: 100px;
 }
 
 .hero-description {
   margin-top: 50px;
+}
+
+/* CSS */
+.hero-button {
+  height: 50px;
+  width: 120px;
+  margin-top: 75px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(38, 38, 38);
+}
+
+.hero-button:hover {
+  cursor: pointer;
+  box-shadow: inset rgb(53, 53, 53) 0px 0px 20px;
 }
