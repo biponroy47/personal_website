@@ -64,4 +64,28 @@
 .profile {
   max-height: 400px;
   max-width: 400px;
+  margin-top: 75px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about {
+  margin-top: 75px;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 20px;
+}
+
+.about h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: regular;
+  font-size: 20px;
+  margin: 20px;
 }
