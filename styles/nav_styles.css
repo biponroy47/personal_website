@@ -71,14 +71,14 @@
 
 /* about */
 .about {
-  color: rgb(86, 86, 86);
+  color: rgb(67, 67, 67);
+  max-height: auto;
   margin-top: 75px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  text-align: left;
+  margin-right: 30px;
+  margin-left: 30px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
 }
 
 .about h1 {
@@ -98,22 +98,16 @@
 .projects-button {
   height: 60px;
   width: 110px;
-  margin-bottom: 25px;
-  margin-right: 10px;
+  margin-top: 15px;
   border-radius: 5px;
   background-color: rgba(7, 59, 202, 0.755);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-style: none;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 17px;
   color: rgb(255, 255, 255);
-  float: right;
 }
 
 .projects-button:hover {
   box-shadow: inset rgb(53, 53, 53) 0px 0px 20px;
-}
-
-.projects-text {
-  font-weight: bold;
 }
