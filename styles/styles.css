@@ -84,21 +84,25 @@
 .about h1 {
   font-family: "Titillium Web", sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 35px;
   margin: 20px;
 }
 
 .about h4 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: regular;
-  font-size: 20px;
+  font-size: 17px;
   margin: 20px;
+}
+
+.about span {
+  font-weight: bold;
 }
 
 .projects-button {
   height: 60px;
   width: 110px;
-  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 5px;
   background-color: rgba(7, 59, 202, 0.755);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
