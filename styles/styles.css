@@ -117,18 +117,27 @@
 }
 
 .logos {
-  color: rgb(67, 67, 67);
+  background-color: white;
   max-height: auto;
-  margin-top: 75px;
+  margin-top: 40px;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 25px;
+  padding: auto;
 }
 
 .logo {
   max-width: 75px;
   max-height: 75px;
   margin: 10px;
+  border-radius: 5px;
+}
+
+.tools {
+  background-color: rgb(238, 238, 238);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: stretch;
 }
