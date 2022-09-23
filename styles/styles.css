@@ -11,6 +11,10 @@ html {
   background-color: rgb(0, 0, 0);
 }
 
+.navbar-brand {
+  margin-right: -50px;
+}
+
 .navbar-toggler {
   border: 0px;
 }
@@ -117,27 +121,20 @@ html {
 }
 
 .projects-button {
-  height: 60px;
-  width: 110px;
-  margin-top: 10px;
+  height: 50px;
+  width: 100px;
+  margin-top: 9px;
   border-radius: 5px;
   background-color: rgba(7, 59, 202, 0.755);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-style: none;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 16px;
   color: rgb(255, 255, 255);
 }
 
 .projects-button:hover {
   box-shadow: inset rgb(53, 53, 53) 0px 0px 20px;
-}
-
-.tools-header {
-  font-weight: bold;
-  margin-top: 80px;
-  margin-bottom: 30px;
-  color: rgb(52, 52, 52);
 }
 
 /* logos */
@@ -167,7 +164,18 @@ html {
   background-color: rgb(238, 238, 238);
   margin-top: 25px;
   margin-bottom: 75px;
-  height: 100vh;
+  height: auto;
+}
+
+.tools-header {
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: rgb(52, 52, 52);
+}
+
+.tools-div {
+  margin-bottom: 100px;
 }
 
 .socials {
@@ -185,4 +193,82 @@ html {
   max-height: 50px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+/* cards sections */
+
+.card {
+  width: 300px;
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  background: #fff;
+  margin-top: 50px;
+}
+.card:hover,
+.card.hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-img .overlay,
+.card.hover .card-img .overlay {
+  background-color: rgba(25, 29, 38, 0.85);
+  transition: opacity 0.2s ease;
+  opacity: 1;
+}
+.card-img {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  transition: opacity 0.2s ease;
+  background-size: cover;
+}
+.card-img .overlay {
+  background-color: #fff;
+  opacity: 0;
+}
+.card-img .overlay .overlay-content {
+  line-height: 300px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.card-img .overlay .overlay-content a {
+  color: #fff;
+  padding: 0 2rem;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card-img .overlay .overlay-content a:hover,
+.card-img .overlay .overlay-content a.hover {
+  background: #3268cd;
+  border-color: #0f45d0;
+}
+.card-content {
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+  border-top: 0px solid #e9e9eb;
+  padding: 1rem 2rem;
+  transition: all 0.2s ease;
+}
+.card-content a {
+  text-decoration: none;
+  color: #202927;
+}
+.card-content h2,
+.card-content a h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.card-content p,
+.card-content a p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(32, 41, 28, 0.8);
 }
