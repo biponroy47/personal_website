@@ -149,7 +149,24 @@
 
 .tools {
   background-color: rgb(238, 238, 238);
-  margin-top: 75px;
+  margin-top: 25px;
   margin-bottom: 75px;
   height: stretch;
+}
+
+.socials {
+  height: auto;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.socials-logo {
+  margin-top: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
