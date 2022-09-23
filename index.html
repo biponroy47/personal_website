@@ -38,7 +38,7 @@
   </head>
   <body>
     <!-- Hero Banner -->
-    <div class="hero-image">
+    <div id="home" class="hero-image">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark py-0 fixed-top scrolled">
         <a class="navbar-brand" href="index.html">BIPON</a>
@@ -57,15 +57,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#home"
                 >HOME <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT ME</a>
+              <a class="nav-link" href="#about">ABOUT ME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TOOLS</a>
+              <a class="nav-link" href="#tools">TOOLS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">PROJECTS</a>
@@ -87,7 +87,7 @@
       </div>
     </div>
     <!-- About Section -->
-    <div class="container-fluid">
+    <div id="about" class="container-fluid">
       <div class="row justify-content-md-center">
         <div class="col-lg-4 d-flex justify-content-center mx-auto">
           <img
@@ -96,7 +96,7 @@
             alt="Responsive image"
           />
         </div>
-        <div class="col-lg-7 about d-flex justify-content-center">
+        <div class="col-lg-7 about-text d-flex justify-content-center">
           <div>
             <h1>Bipon Roy</h1>
             <h4>
@@ -119,6 +119,7 @@
           </div>
         </div>
       </div>
+      <!-- socials section -->
       <div class="row">
           <div class="socials mx-auto">
             <img
@@ -149,7 +150,8 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid tools">
+      <!-- tools section -->
+      <div id="tools" class="container-fluid tools">
         <div class="row">
           <h1 class="col tools-header d-flex justify-content-center">
             TOOLS & FRAMEWORKS
