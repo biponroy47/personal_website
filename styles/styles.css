@@ -63,11 +63,11 @@ html {
   font-weight: bold;
   font-size: 20px;
   color: rgb(38, 38, 38);
+  transition: transform 0.25s;
 }
 
 .hero-button:hover {
-  cursor: pointer;
-  box-shadow: inset rgb(53, 53, 53) 0px 0px 20px;
+  transform: scale(1.125);
 }
 
 /* profile */
@@ -131,10 +131,12 @@ html {
   font-weight: bold;
   font-size: 16px;
   color: rgb(255, 255, 255);
+  transition: transform 0.25s;
 }
 
 .projects-button:hover {
-  box-shadow: inset rgb(53, 53, 53) 0px 0px 20px;
+  transform: scale(1.125);
+  cursor: pointer;
 }
 
 /* logos */
@@ -146,7 +148,6 @@ html {
   margin-left: 30px;
   margin-bottom: 60px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
 }
 
@@ -157,7 +158,13 @@ html {
   margin-bottom: 20px;
   margin-left: 5px;
   margin-right: 5px;
-  border-radius: 5px;
+  padding: 2.5px;
+  border-radius: 10px;
+  transition: transform 0.25s;
+}
+
+.logo:hover {
+  transform: scale(1.225);
 }
 
 .tools {
@@ -193,6 +200,12 @@ html {
   max-height: 50px;
   margin-left: 25px;
   margin-right: 25px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.socials-logo:hover {
+  transform: scale(1.225);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* cards sections */
